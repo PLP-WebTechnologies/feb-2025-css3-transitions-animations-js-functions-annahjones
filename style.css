@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 2rem auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.box.animate {
+  transform: rotate(360deg) scale(1.2);
+}
+
+.buttons button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #27ae60;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: gray;
+}
